@@ -1,0 +1,14 @@
+{
+    "name": "lycoreco/fridge_bites",
+    "description": "School project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Lycoreco\\Apps\\": "apps/",
+            "Lycoreco\\Includes\\": "includes/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    }
+}

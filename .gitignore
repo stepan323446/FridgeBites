@@ -1,0 +1,33 @@
+# Composer vendor directory
+/vendor/
+
+# ОС/IDE/Editor
+.DS_Store
+Thumbs.db
+
+# PHPStorm / JetBrains
+.idea/
+
+# VSCode
+.vscode/
+
+# Cache Composer
+composer.phar
+
+# Cache and Logs
+*.log
+*.cache
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/test-results/
+
+# Coverage reports
+coverage/
+
+# Build artifacts
+/build/
+
+# Production config
+config.php
