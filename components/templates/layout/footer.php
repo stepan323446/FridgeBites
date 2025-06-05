@@ -1,15 +1,20 @@
-
-</div>
-
-<footer>
-    <hr>
-    <div class="container">
-        Footer
-    </div>
-    <hr>
-    <div class="copyright">
-        © LycoReco
-    </div>
+<footer class="footer">
+   <div class="container">
+            <div class="footer-inner">
+                <nav class="footer-nav">
+                    <ul class="footer-links">
+                        <li><a href="<?php the_permalink("index:terms")?>">Terms of Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Dashboard</a></li>
+                    </ul>
+                </nav>
+                <hr>
+                <div class="copyright">
+                    <p>&copy;LycoReco</p>
+                </div>
+            </div>
+        </div>
 </footer>
 
 <script src="<?php echo ASSETS_PATH . '/js/main.js' ?>"></script>

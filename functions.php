@@ -161,7 +161,7 @@ function the_pagination(int $count, int $elem_per_page, int $current_page)
  */
 function get_title_website(string $page_title)
 {
-    return $page_title . ' - Template';
+    return $page_title . ' - FridgeBites';
 }
 /**
  * Get current user id and username. If user is not authorized - false
