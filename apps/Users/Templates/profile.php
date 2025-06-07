@@ -12,12 +12,12 @@ the_header(
 ?>
 
 <div class="container">
-    <?php the_user_nav() ?>
+    
 
-    <h1 class="p-title">Account information</h1>
+    <h1 class="title account-title">Account information</h1>
 
     <div class="account-block">
-        <h2>Contact information</h2>
+        <h2 class="title">Contact information</h2>
         <table>
             <tr>
                 <td>Username:</td>
@@ -37,12 +37,12 @@ the_header(
             </tr>
         </table>
         <div class="change-user-btns">
-            <a href="<?php the_permalink('users:edit-info') ?>" class="btn">Edit info</a>
+            <a href="<?php the_permalink('users:edit-info') ?>" class="btn btn-secondary hover-anim">Edit info</a>
         </div>
     </div>
 
     <div class="account-block">
-        <h2>Security</h2>
+        <h2 class="title">Security</h2>
         <table>
             <tr>
                 <td>E-mail:</td>
@@ -54,15 +54,15 @@ the_header(
             </tr>
         </table>
         <div class="change-user-btns">
-            <a href="<?php the_permalink('users:edit-password') ?>" class="btn">Change password</a>
-            <a href="<?php the_permalink('users:edit-email') ?>" class="btn">Change e-mail</a>
+            <a href="<?php the_permalink('users:edit-password') ?>" class="btn btn-secondary hover-anim">Change password</a>
+            <a href="<?php the_permalink('users:edit-email') ?>" class="btn btn btn-secondary hover-anim">Change e-mail</a>
         </div>
     </div>
     <div class="account-btn-control">
-        <a href="<?php the_permalink('users:logout') ?>" class="btn btn-logout">Logout</a>
+        <a href="<?php the_permalink('users:logout') ?>" class="btn btn-primary hover-anim">Logout</a>
 
         <?php if(CURRENT_USER->field_is_admin): ?>
-        <a href="<?php the_permalink('admin:home') ?>" class="btn btn-primary">Admin panel</a>
+        <a href="<?php the_permalink('admin:home') ?>" class="btn btn-primary hover-anim">Admin panel</a>
         <?php endif ?>
     </div>
 </div>

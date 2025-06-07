@@ -1,11 +1,11 @@
+"use strict";
 new Swiper('.swiper', {
+    
     // Optional parameters
     direction: 'horizontal',
     loop: true,
 
     // If we need pagination
-    
-
     slidesPerView: 1,
     spaceBetween: 0,
 

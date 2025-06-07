@@ -1,12 +1,13 @@
+</div>
 <footer class="footer">
    <div class="container">
             <div class="footer-inner">
                 <nav class="footer-nav">
                     <ul class="footer-links">
                         <li><a href="<?php the_permalink("index:terms")?>">Terms of Service</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="<?php the_permalink("index:contact")?>">Contact</a></li>
+                        <li><a href="<?php the_permalink("index:faq")?>">FAQ</a></li>
+                        <li><a href="<?php the_permalink("admin:home")?>">Dashboard</a></li>
                     </ul>
                 </nav>
                 <hr>

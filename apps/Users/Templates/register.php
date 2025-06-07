@@ -8,7 +8,7 @@
 
 <div class="container">
     <div class="login__inner">
-        <h1 class="p-title">Create New Account</h1>
+        <h1 class="title">Create New Account</h1>
         <form class="form" method="post">
             <?php
             if(isset($context['error_message']))
@@ -44,14 +44,11 @@
                 <input type="text" name="lname" id="field_lname">
             </div>
 
-            <div class="input-checkbox">
+            <div class="terms-checkbox">
                 <input id="terms_agree" type="checkbox" required>
-                <label for="terms_agree">I Agree to the <a href="<?php the_permalink('index:terms') ?>">Terms & Conditions</a></label>
+                <label for="terms_agree">I Agree to the <a class="hover-anim terms-link" href="<?php the_permalink('index:terms') ?>">Terms & Conditions</a></label>
             </div>
-            <div class="input-checkbox">
-                <input id="privacy_agree" type="checkbox" required>
-                <label for="privacy_agree">I Agree to the <a href="<?php the_permalink('index:privacy') ?>">Privacy Policy</a></label>
-            </div>
+           
 
             <?php
                 if(isset($context['error_form']))
@@ -60,17 +57,17 @@
 
             <div class="login-choice">
                 <span></span>
-                <button class="btn btn-primary" type="submit">Create an account</button>
+                <button class="btn btn-primary hover-anim" type="submit">Create an account</button>
             </div>
         </form>
 
         <hr>
 
         <div class="login-text__notice">
-            <h2>Do you already have an account?</h2>
-            <p>Log in to your account to continue the purchase. </p>
+            <h2 class="title">Do you already have an account?</h2>
+            <p>Log in to your account to continue browsing our catalogue of recepies. </p>
 
-            <a href="<?php the_permalink('users:login') ?>" class="btn btn-primary">
+            <a href="<?php the_permalink('users:login') ?>" class="btn btn-primary hover-anim">
                 Login
             </a>
         </div>

@@ -9,9 +9,9 @@
 
 <div class="container">
     <div class="login__inner" <?php if(isset($context['not_available'])) echo 'style="text-align: center;"'; ?>>
-        <h1 class="p-title">Reset Password</h1>
+        <h1 class="title">Reset Password</h1>
         <?php if(!isset($context['not_available'])): ?>
-        <p>Enter a new password for your account.</p>
+        <p class="reset-info">Enter a new password for your account.</p>
         <?php else: ?>
         <p><?php echo $context['not_available'] ?></p>
         <?php endif; ?>

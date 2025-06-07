@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo get_title_website($title) ?></title>
-    <link rel="shortcut icon" type="image/png" href="<?php echo ASSETS_PATH . '/favicon.png' ?>">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo ASSETS_PATH . '/images/favicon.ico' ?>">
 
     <meta name="description" content="<?php echo $description ?>">
 
@@ -60,4 +60,4 @@
             </div>
         </div>
     </header>
-   
+   <div class="page">

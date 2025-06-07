@@ -1,3 +1,4 @@
+"use strict";
 /**
  * Send ajax action to server
  * @param {string} action 

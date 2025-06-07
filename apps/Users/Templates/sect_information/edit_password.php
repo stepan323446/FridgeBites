@@ -7,7 +7,7 @@
 ]) ?>
 
 <div class="container">
-    <h1 class="p-title">Change password</h1>
+    <h1 class="title account-title">Change password</h1>
 
     <form class="form form-edit" method="post">
         <?php
@@ -37,7 +37,7 @@
         
         <div class="btn-control">
             <a class="a-back" href="<?php the_permalink('users:profile') ?>">< Back</a>
-            <button class="btn btn-primary" type="submit">Save</button>
+            <button class="btn btn-primary hover-anim" type="submit">Save</button>
         </div>
         
     </form>

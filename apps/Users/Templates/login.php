@@ -8,7 +8,7 @@
 
 <div class="container">
     <div class="login__inner">
-        <h1 class="p-title">Welcome to KeysShop</h1>
+        <h1 class="title">Welcome to FridgeBites</h1>
         <form class="form" method="post">
         <?php
             if(isset($context['error_message']))
@@ -26,18 +26,18 @@
             </div>
 
             <div class="login-choice">
-                <a href="<?php the_permalink('users:forgot') ?>">Forgot password?</a>
-                <button class="btn btn-primary" type="submit">Login</button>
+                <a href="<?php the_permalink('users:forgot') ?>" class="hover-anim">Forgot password?</a>
+                <button class="btn btn-primary hover-anim" type="submit">Login</button>
             </div>
         </form>
 
         <hr>
 
         <div class="login-text__notice">
-            <h2>You don't have account?</h2>
-            <p>Register now to buy game or program keys at low prices! </p>
+            <h2 class="title">You don't have account?</h2>
+            <p>Register now to get the best and newest recipes! </p>
 
-            <a href="<?php the_permalink('users:register') ?>" class="btn btn-primary">
+            <a href="<?php the_permalink('users:register') ?>" class="btn btn-primary hover-anim">
                 Register
             </a>
         </div>

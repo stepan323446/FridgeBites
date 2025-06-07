@@ -8,8 +8,8 @@
 
 <div class="container">
     <div class="login__inner">
-        <h1 class="p-title">Password Recovery</h1>
-        <p>Enter your email to receive a secure link to reset your password. The link will be valid for a limited time.</p>
+        <h1 class="title">Password Recovery</h1>
+        <p class="recovery-info">Enter your email to receive a secure link to reset your password. The link will be valid for a limited time.</p>
         <form class="form" method="post">
         <?php
             if(isset($context['error_message']))
@@ -24,8 +24,8 @@
             </div>
 
             <div class="login-choice">
-                <a href="<?php the_permalink('users:login') ?>">Login</a>
-                <button class="btn btn-primary" type="submit">Send</button>
+                <a class="hover-anim" href="<?php the_permalink('users:login') ?>">Login</a>
+                <button class="btn btn-primary hover-anim" type="submit">Send</button>
             </div>
         </form>
     </div>
